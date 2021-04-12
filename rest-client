@@ -1,0 +1,28 @@
+GET http://localhost:3000/company
+###
+
+POST http://localhost:3000/company
+Content-Type: application/json
+
+{
+    "name": "facebook22",
+    "domain": "facebook.com",
+    "description": "social network app"
+}
+
+###
+
+GET http://localhost:3000/company/3
+
+###
+
+PUT http://localhost:3000/company/3
+Content-Type: application/json
+
+{
+    "name": "netflix",
+    "domain": "netflix.com",
+    "description": "movie network app"
+}
+
+
